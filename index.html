@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfaran Carriage</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Optional: Link to Bootstrap if needed -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"
+      style="color: rgb(4, 62, 133); font-family: Garamond, serif; font-weight: 800; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"
+      href="#">Alfaran Carriage</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#fleet">Fleet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="hero" class="hero">
+    <div class="heroContainer">
+      <h1 class="excellenceText"><span class="garamondFont">Celebrating 15 years of Excellence</span></h1>
+    </div>
+  </header>
+
+  <!-- Services section -->
+  <!-- <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-card">
+        <img src="service1.jpg" alt="Service 1">
+        <h3>Service 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget purus ac dolor cursus
+          tincidunt.</p>
+      </div>
+      <div class="service-card">
+        <img src="service2.jpg" alt="Service 2">
+        <h3>Service 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget purus ac dolor cursus
+          tincidunt.</p>
+      </div>
+    </div>
+  </section> -->
+  <!-- fleet section -->
+  <section id="fleet" class="fleet">
+    <div class="container">
+      <h2>Our Fleet</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="fleet-item">
+            <img src="truck1.jpg" alt="Truck 1">
+            <h5>Flatbed Trucks</h5>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fleet-item">
+            <img src="truck2.jpg" alt="Truck 2">
+            <h5>Flatbed Trailers</h5>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fleet-item">
+            <img src="truck2.jpg" alt="Truck 2">
+            <h5>Dumpers</h5>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fleet-item">
+            <img src="truck2.jpg" alt="Truck 2">
+            <h5>Small Trucks</h5>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+          </div>
+        </div>
+        <!-- Add more fleet items as needed -->
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Testimonials section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>Our Customers & Alliances</h2>
+      <div class="carousel owl-carousel">
+        <div class="testimonial-card">
+          <!-- <img src="partner1.png" alt="Fauji Cement Ltd."> -->
+          <h5>Fauji Cement Ltd.</h5>
+        </div>
+        <div class="testimonial-card">
+          <!-- <img src="partner2.png" alt="Dewan Cement Ltd."> -->
+          <h5>Dewan Cement Ltd.</h5>
+        </div>
+        <div class="testimonial-card">
+          <h5>Gharibwal Cement Ltd.</h5>
+          <!-- <img src="partner3.png" alt="Ghariwal Cement Ltd."> -->
+        </div>
+        <!-- Add more partner logos as needed -->
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact section -->
+  <section id="contact" class="contact-container">
+    <!-- <div class="contact-container"> -->
+    <div class="contact-image">
+      <img src="./images/telephone.png" alt="Old Telephone">
+      <h2 style="color: white">+92 300 0311197</h2>
+      <!-- <p>We're here to help</p> -->
+      <span class="khatati-text">آپ کا اعتماد ہماری طاقت ہے </span>
+    </div>
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <!-- </div> -->
+  </section>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <div class="container">
+      <!-- Add your footer content here -->
+      <p>&copy; 2020 Alfaran Carriage. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 100,
+        responsive: {
+          0: {
+            items: 2
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 4
+          }
+        }
+      });
+    });
+  </script>
+    <script src="owl.carousel.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
