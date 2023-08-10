@@ -9,33 +9,39 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- Optional: Link to Bootstrap if needed -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand"
-      style="color: rgb(4, 62, 133); font-family: Garamond, serif; font-weight: 800; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"
-      href="#">Alfaran Carriage</a>
+      style="color: rgb(247, 249, 250); font-family: Garamond, serif; font-weight: 800; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"
+      href="#">Alfaran Carriage</a> | Business Beyond Boundaries
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#services">Services</a>
+        <li class="nav-item">
+          <a class="nav-link " style="color: white;" href="#whyus">Why Alfaran</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#fleet">Fleet</a>
+          <a class="nav-link" style="color: white;" href="#fleet">Fleet</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#clients">Testimonials</a>
+          <a class="nav-link" style="color: white;" href="#clients">Clients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact Us</a>
+          <a class="nav-link" style="color: white;" href="#team">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="#contact">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -43,43 +49,84 @@
 
   <header id="hero" class="hero">
     <div class="heroContainer">
-      <h1 class="excellenceText"><span class="garamondFont">Celebrating 15 years of Excellence</span></h1>
+      <!-- class="garamondFont" -->
+      <h1><span>Celebrating <span style="font-size:larger;">15</span> years of Excellence</span></h1>
+      <section class="container my-5">
+        <div class="card card1">
+          <h3 style="color: #00838d; text-align: left;">Our Legacy</h3>
+          <p class="small">Alfaran Carriage Company, with 15 years of dedicated service, has transformed Punjab's
+            transportation landscape. From a visionary inception to overcoming early challenges, we've grown into a
+            fleet
+            of 200+ vehicles, enhancing accessibility and mobility.
+
+            Our collaborative network thrives through relationships with drivers, customers, and communities, ensuring
+            top-notch service quality and operational efficiency.
+
+            With a customer-centric approach, we've embraced technological advancements like mobile apps and GPS
+            tracking,
+            offering seamless travel experiences.
+
+            Our commitment extends to sustainability, reflected in eco-friendly practices and community engagement.
+            We've
+            contributed not only to transportation but also to employment opportunities, fostering careers in the
+            sector.
+
+            Recognized for our impact, we're proud of our legacy. Looking ahead, our focus remains on growth, service
+            excellence, and shaping Punjab's transportation future.</p>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   </header>
 
 
+
+
+  <section class="message-section" id="whyus">
+    <div class="text-center container py-5">
+      <blockquote>
+        <p class="mt-4 mb-5">
+            __"Safely moving your carriages is our priority. With our dedicated team, trust us to
+            handle your transport needs reliably and efficiently. Choose us for a worry-free carriage transport
+            experience"__
+        </p>
+      </blockquote>
+    </div>
+  </section>
+
   <!-- fleet section -->
   <section id="fleet" class="fleet">
+    <h2 style="padding-top:3rem; font-weight: 700;" data-aos="fade-up">Our Fleet</h2>
+
     <div class="container">
-      
-      <h2>Our Fleet</h2>
-      <div class="row">
-        <div class="col-md-3">
+      <div class="row" style="margin-top: 7rem;">
+        <div class="col-md-3" data-aos="fade-up">
           <div class="fleet-item">
-            <img src="./images/flatbed-truck.jpg" alt="Truck 1">
+            <img src="./images/flatbed-truck.jpg" alt="Flatbed Truck">
             <h5>Flatbed Trucks</h5>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="150">
           <div class="fleet-item">
-            <img src="./images/flatbed-trailers.jpeg" alt="Truck 2">
+            <img src="./images/flatbed-trailers.jpeg" alt="Flatbed Trailers">
             <h5>Flatbed Trailers</h5>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
           <div class="fleet-item">
-            <img src="./images/dumper.jpg" alt="Truck 2">
+            <img src="./images/dumper.jpg" alt="Dumpers">
             <h5>Dumpers</h5>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="450">
           <div class="fleet-item">
-            <img src="./images/small-truck.jpg" alt="Truck 2">
+            <img src="./images/small-truck.jpg" alt="Small Trucks">
             <h5>Small Trucks</h5>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
           </div>
         </div>
         <!-- Add more fleet items as needed -->
@@ -87,33 +134,123 @@
     </div>
   </section>
 
+  <!--====== client logos section========== -->
 
-
-
-  <!-- clients section -->
-  <section id="clients" class="clients">
+  <section id="clients" class="client-logo-area client-logo-one">
     <div class="container">
-      <h2
-        style="color: rgb(5, 70, 121); font-family: Verdana, Geneva, Tahoma, sans-serif, serif; font-weight: 800; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-        <span style="color:black; font-size: 100px;">🚛
-        </span> Their Carriages, Our Care.
-      </h2>
       <div class="row">
-        <div class="client-logo">
-          <img src="/images/fauji-cement.png" alt="Fauji Cement Ltd.">
+        <div class="col-md-6" data-aos="fade-up">
+          <div class="content">
+            <h2 class="fw-bold">
+              <span> 🚛</span> Their Carriages, Our Care
+            </h2>
+            <div class="description">
+              <p>Connecting the world with reliable transportation.</p>
+              <div class="progress-line"></div>
+            </div>
+          </div>
         </div>
-        <div class="client-logo">
-          <img src="/images/dewan-cement.png" alt="Dewan Cement Ltd.">
-        </div>
-        <div class="client-logo">
-          <img src="/images/gharibwal-cement.png" alt="Gharibwal Cement Ltd.">
+        <div class="col-md-6">
+          <div class="logo-grid">
+            <div class="logo-cell">
+              <img src="/images/fauji-cement.png" alt="Logo" />
+            </div>
+            <div class="logo-cell">
+              <img src="/images/dewan-cement.png" alt="Logo" />
+            </div>
+            <div class="logo-cell">
+              <img src="/images/gharibwal-cement.png" alt="Logo" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!--====== CLIENT LOGO PART ENDS ======-->
 
+  <!-- =============TEAMS PART STARTS================= -->
+  <div id="team" class="py-5 team4" >
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div class="mb-3 col-md-7 text-center">
+          <h3 class="mb-5">Our Leadership</h3>
+          <!-- <h6 class="subtitle">You can rely on our</h6> -->
+        </div>
+      </div>
+      <div class="row ">
+        <!-- column  -->
+        <div class="col-lg-3 mb-4 pr-2">
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-12">
+              <img src="./images/dummy-pik.png" alt="wrapkit" class="img-fluid rounded-circle" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Haji Abdul Ghafoor</h5>
+                <h6 class="subtitle mb-3">Co-Founder</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+        <!-- column  -->
+        <!-- column  -->
+        <div class="col-lg-3 mb-4 pr-2">
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-12">
+              <img src="./images/dummy-pik.png" alt="wrapkit" class="img-fluid rounded-circle" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Haji Muhammad Iqbal</h5>
+                <h6 class="subtitle mb-3">Co-Founder</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+        <!-- column  -->
+        <!-- column  -->
+        <div class="col-lg-3 mb-4 pr-2">
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-12">
+              <img src="./images/dummy-pik.png" alt="wrapkit" class="img-fluid rounded-circle" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Muhammad Umer Shakeeb</h5>
+                <h6 class="subtitle mb-3">Managing Director</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+        <!-- column  -->
+        <!-- column  -->
+        <div class="col-lg-3 mb-4 pr-2">
+          <!-- Row -->
+          <div class="row">
+            <div class="col-md-12">
+              <img src="./images/dummy-pik.png" alt="wrapkit" class="img-fluid rounded-circle" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Anonymous</h5>
+                <h6 class="subtitle mb-3">HR Manager</h6>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!--===================TEAMS PART ENDS================== -->
   <!-- Contact section -->
   <section id="contact" class="contact-container">
     <!-- <div class="contact-container"> -->
@@ -124,11 +261,19 @@
       <span class="khatati-text">آپ کا اعتماد ہماری طاقت ہے </span>
     </div>
     <div class="contact-form">
-      <h2>Contact Us</h2>
-      <form>
-        <input type="email" placeholder="Your Email">
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Submit</button>
+      <form class="form">
+        <p class="title">Contact Us</p>
+        <p class="message">Write to us, we are always here 😊 </p>
+
+        <label>
+          <input required="" placeholder="" type="email" class="input">
+          <span>Email</span>
+        </label>
+        <label>
+          <textarea required="" type="text"></textarea>
+          <span>Your Message</span>
+        </label>
+        <button class="submit">Submit</button>
       </form>
     </div>
     <!-- </div> -->
@@ -143,34 +288,14 @@
   </footer>
 
 
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
-    $(document).ready(function () {
-      $('.carousel').owlCarousel({
-        loop: true,
-        margin: 30,
-        nav: false,
-        dots: false,
-        autoplay: true,
-        autoplayTimeout: 100,
-        responsive: {
-          0: {
-            items: 2
-          },
-          600: {
-            items: 3
-          },
-          1000: {
-            items: 4
-          }
-        }
-      });
-    });
+    AOS.init();
   </script>
-  <script src="owl.carousel.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <a href="https://wa.me/0923000311197" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
 </body>
 
 </html>
