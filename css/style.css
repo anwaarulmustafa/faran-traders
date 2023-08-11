@@ -580,7 +580,7 @@ textarea.form-control {
 }
 
 .fleet-item {
-  background-color: #00838d;
+  background-color: #c6c8c9;
   border-radius: 15px;
   margin: 15px;
   padding: 15px;
@@ -599,7 +599,7 @@ textarea.form-control {
 
 .fleet-item h5 {
   margin: 10px 0;
-  color: white;
+  color: black;
   font-size: 1.2rem;
 }
 
@@ -870,7 +870,7 @@ textarea.form-control {
 .btn {
   margin-top: 36px;
   margin-bottom: 45px;
-  background-color: #AB47BC;
+  background-color: #AB47BC;  
   border: none;
   color: #fff
 }
@@ -885,3 +885,5 @@ textarea.form-control {
 .headert {
   padding-top: 40px
 }
+
+
